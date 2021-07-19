@@ -2,7 +2,7 @@
 
 ## 💻 **Projeto**
 
-O desafio foi desenvolver uma landing-page de modelo ecommerce, com tema de **Black Friday** para captação de dados do usuário e armazeamento no localstorage.
+O desafio foi desenvolver uma landing-page de modelo Ecommerce, com tema de **Black Friday** para captação de dados do usuário e armazenamento no localstorage.
 
 🔗 **Link do projeto:** https://hc-desafio-lp-blackfriday.netlify.app/
 
