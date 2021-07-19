@@ -37,8 +37,15 @@ html {
 }
 
 body {
+  width: fit-content;
   font: 400 1.05rem var(--family-font);
   -webkit-font-smoothing: antialiased;
+}
+
+.main-title{
+  font-size: var(--title-font-size);
+  text-align: center;    
+  margin-bottom: 2rem;
 }
 
 .title {
@@ -306,6 +313,10 @@ form {
   background-color: var(--body-color-one);
 }
 
+.background-section-three .main-title {
+  color: var(--base-color-two)
+}
+
 #products .card {
   text-align: center;
 }
@@ -339,6 +350,9 @@ form {
 }
 */
 /*====  BENEFITS ============================ */
+.background-section-four .main-title {
+  color: var(--body-color-one);
+}
 
 #benefits {
   background-color: var(--body-color-alt);
@@ -419,7 +433,7 @@ copyright p {
   color: var(--base-color-two);
   background: var(--body-color-one);
   text-align: center;
-  padding: 0.3rem;
+  padding: 0.75rem;
 }
 
 /* Back to top */
@@ -453,6 +467,9 @@ copyright p {
 /*========= MEDIA QUERIES =========*/
 /* extra large devices: 1200 > (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
+  body{
+    width: auto;
+  }
   /* reusable classes */
   .container {
     max-width: 1120px;
@@ -470,14 +487,20 @@ copyright p {
     margin-left: auto;
     margin-right: auto;
   }
+  
+  .main-title{
+    font-size: var(--title-font-size);
+    text-align: center;    
+    margin-bottom: 2rem;
+  }
 
   #header {
     margin-bottom: var(--header-height);
   }
 
-  h1 {
+  /*h1 {
     font-size: calc(2 + var(--title-font-size));
-  }
+  }*/
 
   p {
     font-size: 1.15rem;
@@ -548,6 +571,10 @@ copyright p {
     gap: 2rem;
   }
 
+  .background-section-three .main-title {
+    color: var(--base-color-two);
+  }
+  
   #products .title,
   #benefits .title {
     font-size: 1.5rem;
@@ -557,6 +584,11 @@ copyright p {
   #benefits .cards-grid {
     grid-template-columns: 1fr 1fr 1fr;
   }
+  
+  .background-section-four .main-title {
+    color: var(--body-color-one);
+  }
+  
   /*  Footer */
   .footer-section {
     display: flex;
