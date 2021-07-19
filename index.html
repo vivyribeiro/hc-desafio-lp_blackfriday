@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <!-- Page Info -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./favicon.ico" />
+    <title>BlackFriday - Desafio HC</title>
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="assets/fonts/style.css" />
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="height: 100%">
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#">
+          <img src="assets/logo.png" alt="Logo Black Friday" />
+        </a>
+        <!-- menu -->
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">INÍCIO</a></li>
+            <li><a class="title" href="#products">PRODUTOS</a></li>
+            <li><a class="title" href="#benefits">BENEFÍCIOS</a></li>
+          </ul>
+        </div>
+        <!-- menu mobile-->
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Section One -->
+      <section class="section background-section-one" id="home">
+        <div class="container">
+          <h3 class="title">O TÃO ESPERADO</h3>
+          <div class="image">
+            <img src="assets/blackfriday.png" alt="Black Friday" />
+          </div>
+          <h3 class="title">ESTÁ CHEGANDO...</h3>
+          <p>Prepare seu dinheiro, cartões de crédito e humor!</p>
+          <p>
+            Fique ligado nas promoções incríveis e
+            <strong> economize até 80% </strong>com a promoção insana da Black
+            Friday.
+          </p>
+        </div>
+      </section>
+      <!-- Section Two -->
+      <section class="section background-section-two">
+        <div class="container">
+          <div class="timer">
+            <div>
+              <h1 class="title">CONTAGEM REGRESSIVA</h1>
+              <p><span>A melhor época do ano começa em:</span></p>
+            </div>
+            <div class="countdown">
+              <div>
+                <h2 class="title" id="dias">00</h2>
+                <p>DIAS</p>
+              </div>
+              <div>
+                <h2 class="title" id="horas">00</h2>
+                <p>HORAS</p>
+              </div>
+              <div>
+                <h2 class="title" id="minutos">00</h2>
+                <p>MINUTOS</p>
+              </div>
+              <div>
+                <h2 class="title" id="segundos">00</h2>
+                <p>SEGUNDOS</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <p>
+              Receba as melhores ofertas no seu e-mail <br />
+              e já se prepare para economizar!
+            </p>
+          </div>
+          <form id="form">
+            <input type="text" placeholder="nome" id="name" />
+            <input type="text" placeholder="e-mail" id="email" />
+            <input type="submit" value="Eu quero!" id="register" />
+          </form>
+          <div id="content"></div>
+        </div>
+      </section>
+      <!-- Section Three -->
+      <section class="section background-section-three" id="products">
+        <div class="container">
+          <div class="cards-grid">
+            <div class="card">
+              <h2 class="title">60% OFF</h2>
+              <img src="/assets/products/product1.jpg" alt="" />
+              <h3 class="title">Tênis</h3>
+            </div>
+            <div class="card">
+              <h2 class="title">70% OFF</h2>
+              <img src="/assets/products/product2.jpg" alt="" />
+              <h3 class="title">Rélogios</h3>
+            </div>
+            <div class="card">
+              <h2 class="title">80% OFF</h2>
+              <img src="/assets/products/product3.jpg" alt="" />
+              <h3 class="title">Bolsas</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section background-section-four" id="benefits">
+        <div class="container">
+          <div class="cards-grid">
+            <div class="card">
+              <i class="icon-benefits1"></i>
+              <h3 class="title">SEJA O PRIMEIRO</h3>
+              <p>
+                Cadastre-se em nossa lista de e-mail e seja o primeiro a saber
+                sobre todos os nossos planos para a Black Friday 2021. E nós
+                também o informaremos sobre todas as nossas ofertas e descontos
+                atuais.
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-benefits2"></i>
+              <h3 class="title">SORTEIOS E BRINDES</h3>
+              <p>
+                Ganhe prêmios incríveis e receba recompensas por ser um membro
+                da loja ou por ter um número específico de itens em seu
+                carrinho.
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-benefits3"></i>
+              <h3 class="title">SATISFAÇÃO CERTA</h3>
+              <p>
+                Faça suas escolhas e aproveite as melhores compras de todos os
+                tempos, repletas das melhores ofertas e descontos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+      <div class="brand">
+        <a href="#home"
+          ><img src="assets/logo.png" alt="Logo Black Friday"
+        /></a>
+        <p>
+          O maior evento de vendas mundial<br />
+          que combina promoções incríveis <br />com os melhores produtos numa
+          <br />oportunidade imperdível!
+        </p>
+        <div class="social grid">
+          <a href="https://instagram.com" target="_blank">
+            <i class="icon-instagram"></i>
+          </a>
+          <a href="https://facebook.com" target="_blank">
+            <i class="icon-facebook"></i
+          ></a>
+          <a href="https://youtube.com" target="_blank"
+            ><i class="icon-youtube"></i
+          ></a>
+        </div>
+      </div>
+      <div class="links">
+        <ul class="grid">
+          <h3>ENTRE EM CONTATO CONOSCO</h3>
+          <li><i class="icon-phone"></i> 75 99191-9292</li>
+          <li>
+            <i class="icon-map-pin"></i> R. Marechal Floriano Peixoto, Centro
+          </li>
+          <li><i class="icon-mail"></i> contato@blackfriday.com</li>
+        </ul>
+      </div>
+    </footer>
+    <copyright>
+      <p>©BlackFriday 2021 - Todos os direitos reservados.</p>
+    </copyright>
+    <!-- Back to top-->
+    <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
