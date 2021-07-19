@@ -8,8 +8,8 @@ O desafio foi desenvolver uma landing-page de modelo ecommerce, com tema de **Bl
 
 **Screenshoot Desktop:** <br>
 
-![Landing Page BlackFriday](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Landing Page BlackFriday')
+![Landing Page BlackFriday](assets/desktop-screenshoot.png 'Landing Page BlackFriday')
 
 **Screenshoot Mobile:** <br>
 
-![Landing Page BlackFriday](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Landing Page BlackFriday')
+![Landing Page BlackFriday](assets/mobile-screenshoot.png 'Landing Page BlackFriday')
